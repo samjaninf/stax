@@ -11,13 +11,13 @@ frappe.query_reports["Withholding Tax Report"] = {
             "fieldname":"date_from",
             "label": __("Date From"),
             "fieldtype": "Date",
-	    "default": get_today()
+	        "default": get_today()
         },
         {
             "fieldname":"date_to",
             "label": __("Date To"),
             "fieldtype": "Date",
-	    "default": get_today()
+	        "default": get_today()
         },
     ]
 }
