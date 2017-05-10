@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include phtax *.css
-recursive-include phtax *.csv
-recursive-include phtax *.html
-recursive-include phtax *.ico
-recursive-include phtax *.js
-recursive-include phtax *.json
-recursive-include phtax *.md
-recursive-include phtax *.png
-recursive-include phtax *.py
-recursive-include phtax *.svg
-recursive-include phtax *.txt
-recursive-exclude phtax *.pyc
+recursive-include stax *.css
+recursive-include stax *.csv
+recursive-include stax *.html
+recursive-include stax *.ico
+recursive-include stax *.js
+recursive-include stax *.json
+recursive-include stax *.md
+recursive-include stax *.png
+recursive-include stax *.py
+recursive-include stax *.svg
+recursive-include stax *.txt
+recursive-exclude stax *.pyc

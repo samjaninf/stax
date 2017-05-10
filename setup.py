@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 from pip.req import parse_requirements
 import re, ast
 
-# get version from __version__ variable in phtax/__init__.py
+# get version from __version__ variable in stax/__init__.py
 _version_re = re.compile(r'__version__\s+=\s+(.*)')
 
 with open('stax/__init__.py', 'rb') as f:
@@ -13,7 +13,7 @@ with open('stax/__init__.py', 'rb') as f:
 requirements = parse_requirements("requirements.txt", session="")
 
 setup(
-	name='phtax',
+	name='stax',
 	version=version,
 	description='Tax Reports',
 	author='Pegas Technology Solutions',

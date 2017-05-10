@@ -15,12 +15,12 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/phtax/css/phtax.css"
-# app_include_js = "/assets/phtax/js/phtax.js"
+# app_include_css = "/assets/stax/css/stax.css"
+# app_include_js = "/assets/stax/js/stax.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/phtax/css/phtax.css"
-# web_include_js = "/assets/phtax/js/phtax.js"
+# web_include_css = "/assets/stax/css/stax.css"
+# web_include_js = "/assets/stax/js/stax.js"
 
 # Home Pages
 # ----------
@@ -34,7 +34,7 @@ app_license = "MIT"
 # }
 
 # Website user home page (by function)
-# get_website_user_home_page = "phtax.utils.get_home_page"
+# get_website_user_home_page = "stax.utils.get_home_page"
 
 # Generators
 # ----------
@@ -45,14 +45,14 @@ app_license = "MIT"
 # Installation
 # ------------
 
-# before_install = "phtax.install.before_install"
-# after_install = "phtax.install.after_install"
+# before_install = "stax.install.before_install"
+# after_install = "stax.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "phtax.notifications.get_notification_config"
+# notification_config = "stax.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -83,30 +83,30 @@ app_license = "MIT"
 
 # scheduler_events = {
 # 	"all": [
-# 		"phtax.tasks.all"
+# 		"stax.tasks.all"
 # 	],
 # 	"daily": [
-# 		"phtax.tasks.daily"
+# 		"stax.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"phtax.tasks.hourly"
+# 		"stax.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"phtax.tasks.weekly"
+# 		"stax.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"phtax.tasks.monthly"
+# 		"stax.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "phtax.install.before_tests"
+# before_tests = "stax.install.before_tests"
 
 # Overriding Whitelisted Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "phtax.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "stax.event.get_events"
 # }
